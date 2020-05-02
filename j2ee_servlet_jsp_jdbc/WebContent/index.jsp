@@ -30,17 +30,17 @@ form {
 
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
 		<ul class="navbar-nav">
-			<li class="nav-item"><a class="nav-link" href="#section1">Demo1</a></li>
-			<li class="nav-item"><a class="nav-link" href="#section2">Demo2</a></li>
-			<li class="nav-item"><a class="nav-link" href="#section3">Demo3</a></li>
-			<li class="nav-item"><a class="nav-link" href="#section4">Demo4</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section1">GenericServlet</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section2">HttpServlet</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section3">RequestDispatcher</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section4">sendRedirect</a></li>
 
-			<li class="nav-item"><a class="nav-link" href="#section5">Demo5</a></li>
-			<li class="nav-item"><a class="nav-link" href="#section6">Demo6</a></li>
-			<li class="nav-item"><a class="nav-link" href="#section7">Demo7</a></li>
-			<li class="nav-item"><a class="nav-link" href="#section8">Demo8</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section5">ServletParameters</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section6">Attribute</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section7">SessionTracking</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section8">Apply</a></li>
 
-			<li class="nav-item"><a class="nav-link" href="#section9">Demo9</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section9">Filter</a></li>
 		</ul>
 	</nav>
 
