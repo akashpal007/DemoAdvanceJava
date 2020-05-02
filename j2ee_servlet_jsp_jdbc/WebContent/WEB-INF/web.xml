@@ -20,4 +20,24 @@
 		<servlet-name>servlet1</servlet-name>
 		<url-pattern>/servletCall2</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>test1</servlet-name>
+		<servlet-class>j2ee_servlet_jsp_jdbc.ServletCall5</servlet-class>
+		<init-param>
+			<param-name>driver</param-name>
+			<param-value>JDBC:MYSQL:DRIVER</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>test1</servlet-name>
+		<url-pattern>/servletCall5</url-pattern>
+	</servlet-mapping>
+
+
+	<context-param>
+		<param-name>common</param-name>
+		<param-value>global servlet value</param-value>
+	</context-param>
+
 </web-app>

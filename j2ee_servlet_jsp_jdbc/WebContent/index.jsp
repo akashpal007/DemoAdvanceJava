@@ -21,6 +21,8 @@ form {
 	border-radius: 5px;
 	background-color: #f2f2f2;
 	padding: 20px;
+	width: 500px;
+	display: inline-block;
 }
 </style>
 </head>
@@ -66,8 +68,8 @@ form {
 		style="padding-top: 70px; padding-bottom: 70px">
 
 		<div class="text-center p-3 bg-secondary text-white">
-			<h4>2. Basic Servlet Using extends HttpServlet class and mapping in
-				web.xml</h4>
+			<h4>2. Basic Servlet Using extends HttpServlet class and mapping
+				in web.xml</h4>
 		</div>
 		<br>
 		<form action="servletCall2" method="post">
@@ -102,8 +104,8 @@ form {
 		style="padding-top: 70px; padding-bottom: 70px">
 
 		<div class="text-center p-3 bg-secondary text-white">
-			<h4>4. Servlet to servlet calling using The sendRedirect() method
-				of HttpServletResponse interface</h4>
+			<h4>4. Servlet to servlet calling using The sendRedirect()
+				method of HttpServletResponse interface</h4>
 		</div>
 		<br>
 		<form action="servletCall4" method="post">
@@ -123,10 +125,14 @@ form {
 		style="padding-top: 70px; padding-bottom: 70px">
 
 		<div class="text-center p-3 bg-secondary text-white">
-			<h4>5. ServletConfig & ServletContext</h4>
+			<h4>5. ServletConfig & ServletContext & use of <i>getRequestDispatcher().include()</i></h4>
 		</div>
 		<br>
-		<form action="servletCall3" method="post">
+		<form action="servletCall5" method="post">
+			<div>
+				<input type="text" class="form-control" placeholder="Enter name"
+					name="name">
+			</div>
 			<br> <input type="Submit" class="btn btn-primary" value="Submit">
 		</form>
 
@@ -143,12 +149,13 @@ form {
 		</form>
 
 	</div>
-	
-		<div id="section7" class="container-fluid bg-info"
+
+	<div id="section7" class="container-fluid bg-info"
 		style="padding-top: 70px; padding-bottom: 70px">
 
 		<div class="text-center p-3 bg-secondary text-white">
-			<h4>7. Session Tracking techniques [Cookies, Hidden Form Field, URL Rewriting, HttpSession]</h4>
+			<h4>7. Session Tracking techniques [Cookies, Hidden Form Field,
+				URL Rewriting, HttpSession]</h4>
 		</div>
 		<br>
 		<form action="servletCall3" method="post">
@@ -168,8 +175,8 @@ form {
 		</form>
 
 	</div>
-	
-		<div id="section9" class="container-fluid bg-info"
+
+	<div id="section9" class="container-fluid bg-info"
 		style="padding-top: 70px; padding-bottom: 70px">
 
 		<div class="text-center p-3 bg-secondary text-white">
