@@ -46,7 +46,7 @@ form {
 
 	<div id="section1" class="container-fluid bg-info"
 		style="padding-top: 100px; padding-bottom: 70px">
-		
+
 		<jsp:include page="inc/GenericServlet-inc.jsp" />
 
 	</div>
@@ -75,7 +75,7 @@ form {
 		<jsp:include page="inc/ServletParameters-inc.jsp" />
 
 	</div>
-	
+
 	<div id="section6" class="container-fluid bg-warning"
 		style="padding-top: 70px; padding-bottom: 70px">
 
@@ -87,8 +87,9 @@ form {
 		style="padding-top: 70px; padding-bottom: 70px">
 
 		<jsp:include page="inc/SessionTracking-inc.jsp" />
-		
+
 	</div>
+
 	<div id="section8" class="container-fluid bg-warning"
 		style="padding-top: 70px; padding-bottom: 70px">
 
@@ -96,9 +97,10 @@ form {
 			<h4>8. Login and Logout [Using Cookies & HttpSession]</h4>
 		</div>
 		<br>
-		<form action="servletCall4" method="post">
-			<br> <input type="Submit" class="btn btn-primary" value="Submit">
-		</form>
+		<div class="btn-group btn-group-justified">
+			<a href="cookies-login.jsp" class="btn btn-primary">CookieLogIn</a><a href="session-login.jsp"
+				class="btn btn-primary">SessionLogIn</a>
+		</div>
 
 	</div>
 
