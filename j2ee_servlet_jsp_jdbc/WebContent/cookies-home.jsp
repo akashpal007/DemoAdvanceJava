@@ -29,7 +29,7 @@
 			response.sendRedirect("cookies-login.jsp");
 		}
 	%>
-	<form action="logoutServlet" method="post">
+	<form action="cookieLogout" method="post">
 		<button type="submit">Logout</button>
 	</form>
 </body>
