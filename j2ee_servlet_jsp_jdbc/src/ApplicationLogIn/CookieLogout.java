@@ -22,7 +22,7 @@ public class CookieLogout extends HttpServlet {
 	 */
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("logout process started");
+		System.out.println("Cookie #logout process started");
 		
 		Cookie cookie = new Cookie("fullName", null);
 		cookie.setMaxAge(0);

@@ -8,7 +8,7 @@
 </head>
 <body>
 	<%
-		System.out.println("Cookies home page called");
+		System.out.println("Cookie # home page called");
 		Cookie[] cookies = request.getCookies();
 		if (cookies.length > 1) {
 			out.println("login success....cookies.....<br><br>");
@@ -24,7 +24,7 @@
 					out.println("<h4>User id: </h4>" + cookies[i].getValue());
 				}
 			}
-			System.out.println("Cookies home page cookies data printed");
+			System.out.println("Cookie # home page cookies data printed");
 		} else {
 			response.sendRedirect("cookies-login.jsp");
 		}

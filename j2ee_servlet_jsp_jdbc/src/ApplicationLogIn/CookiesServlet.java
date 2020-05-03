@@ -22,7 +22,7 @@ public class CookiesServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String name = req.getParameter("name");
 		String pass = req.getParameter("pass");
-		System.out.println(name +"  "+ pass);
+		System.out.println("Cookie #    "+ name +"  "+ pass);
 		
 		if(name.equals("akash") && pass.equals("pass")) {
 			System.out.println("match");

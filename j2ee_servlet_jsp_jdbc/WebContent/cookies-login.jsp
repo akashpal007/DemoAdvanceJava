@@ -8,7 +8,7 @@
 </head>
 <body>
 <%
-	System.out.println("Login page");
+	System.out.println("Cookie #Login page");
 %>
 	<form action="cookiesServlet" method="post">
 		<div>
