@@ -38,9 +38,10 @@ form {
 			<li class="nav-item"><a class="nav-link" href="#section5">ServletParameters</a></li>
 			<li class="nav-item"><a class="nav-link" href="#section6">Attribute</a></li>
 			<li class="nav-item"><a class="nav-link" href="#section7">SessionTracking</a></li>
-			<li class="nav-item"><a class="nav-link" href="#section8">Apply</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section8">ApplicationLogIn</a></li>
 
 			<li class="nav-item"><a class="nav-link" href="#section9">Filter</a></li>
+			<li class="nav-item"><a class="nav-link" href="readCustomer">JDBC</a></li>
 		</ul>
 	</nav>
 
@@ -108,12 +109,8 @@ form {
 		style="padding-top: 70px; padding-bottom: 70px">
 
 		<div class="text-center p-3 bg-secondary text-white">
-			<h4>9. Servlet Filter</h4>
+			<h4>9. Servlet Filter Not implemented yet</h4>
 		</div>
-		<br>
-		<form action="servletCall3" method="post">
-			<br> <input type="Submit" class="btn btn-primary" value="Submit">
-		</form>
 
 	</div>
 
